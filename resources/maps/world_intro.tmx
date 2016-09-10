@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="640" tileheight="480" nextobjectid="1">
+ <tileset firstgid="1" name="screenshot" tilewidth="640" tileheight="480" tilecount="5" columns="1">
+  <image source="../graphics/screenshot.png" width="640" height="2400"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="2000"/>
+    <frame tileid="1" duration="2000"/>
+    <frame tileid="2" duration="2000"/>
+    <frame tileid="3" duration="2000"/>
+    <frame tileid="4" duration="2000"/>
+   </animation>
+  </tile>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="0" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="layer 1" width="1" height="1">
+  <data encoding="base64">
+   AQAAAA==
+  </data>
+ </layer>
+</map>
